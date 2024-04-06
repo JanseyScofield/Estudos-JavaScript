@@ -8,7 +8,7 @@ Opções do Menu:
 4. Calcular Área do Círculo
 5. Sair*/
 
-alert("1. Calcular Área do Triângulo\n2. Calcular Área do Retângulo\n3. Calcular Volume do Cubo\n4. Calcular Área do Círculo\n5. Sair")
+console.log("1. Calcular Área do Triângulo\n2. Calcular Área do Retângulo\n3. Calcular Volume do Cubo\n4. Calcular Área do Círculo\n5. Sair")
 let escolha = parseInt(prompt("Escolha a função que deseja selecionar:  "))
 let resultado = 0
 let unidade ="²"
@@ -35,4 +35,4 @@ switch(escolha){
         let raio = parseFloat(prompt("Digite o valor do raio do círculo em cm: "))
         resultado = raio*3.14*2
 }
-alert(`O valor é de ${resultado} cm${unidade}.`)
+console.log(`O valor é de ${resultado} cm${unidade}.`)

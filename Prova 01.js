@@ -11,4 +11,4 @@ let n3 = parseFloat(prompt("Digite a nota 3: "))
 let p3 = parseFloat(prompt("Digite o peso da nota 3: "))
 
 let media = ((n1*p1)+(n2*p2)+n3*p3) / (p1+p2+p3)
-alert(`A média ponderada foi de ${media}.`)
+console.log(`A média ponderada foi de ${media}.`)

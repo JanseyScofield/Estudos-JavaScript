@@ -16,4 +16,4 @@ let inss = salBruto*0.08
 let sindicato = salBruto*0.05
 let salLiquido = salBruto - (ir+inss+sindicato)
 
-alert(`O seu salário bruto é de R$ ${salBruto}.\nO valor pago ao INSS foi de R$ ${inss}.\nO valor pago ao sindicato foi de R$ ${sindicato}.\nO salário líquido ficou de R$ ${salLiquido}.`)
+console.log(`O seu salário bruto é de R$ ${salBruto}.\nO valor pago ao INSS foi de R$ ${inss}.\nO valor pago ao sindicato foi de R$ ${sindicato}.\nO salário líquido ficou de R$ ${salLiquido}.`)

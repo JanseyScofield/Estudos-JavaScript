@@ -3,7 +3,7 @@
 organizada. */
 
 let nome = prompt("Qual é o sobrenome da sua família?")
-console.log(`Bem vinda, família ${nome}`)
+console.log(`Bem vinda, família ${nome}!`)
 let tarefas = [prompt("Para começar, digite a primeira tarefa da casa: ")]
 let stop = false
 while(stop == false){
@@ -45,7 +45,7 @@ while(stop == false){
                 for(iCont = 0; iCont < tarefas.length; iCont++){
                     console.log(`${iCont+1} - ${tarefas[iCont]}`)
                 }
-                let escAtt = parseInt(prompt("Escolha a tarefa que você deseja atualizar (digite 0 para sair): "))
+                let escAtt = parseInt(prompt("Digite o número da tarefa que você deseja atualizar (digite 0 para sair): "))
                 while(escAtt <0 || escAtt > tarefas.length){
                     excluir = parseInt("Número inválido. Digite outro: ")
                 }

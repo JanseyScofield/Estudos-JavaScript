@@ -11,7 +11,7 @@ classificada como"Assassino". Caso contrário, será classificada como "Inocente
 
 let perguntas = ["Telefonou para a vítima?", "Esteve no local do crime?", "Mora perto da vítima?", "Devia para a vítima?", "Já trabalhou com a vítima?"]
 let vetSim = []
-let nome = prompt("Qual é o nome do suspeito? ")
+let nome = prompt("Qual é o nome da pessoa interrogada? ")
 console.log("Responda com 'S' para 'Sim' e 'N' para 'Não': ")
 for(iCont = 0; iCont<=4; iCont++){
     let resp = prompt(perguntas[iCont]).toLowerCase()
